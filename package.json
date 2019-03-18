@@ -1,0 +1,39 @@
+{
+  "name": "node-foodics",
+  "version": "0.0.1",
+  "description": "Simple NodeJS wrapper for Foodics API",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emrealparslan93/node-foodics.git"
+  },
+  "keywords": [
+    "foodics",
+    "api",
+    "nodejs",
+    "node"
+  ],
+  "author": "Emre Alparslan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emrealparslan93/node-foodics/issues"
+  },
+  "homepage": "https://github.com/emrealparslan93/node-foodics#readme",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "eslint": "^5.13.0"
+  }
+}
