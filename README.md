@@ -37,5 +37,5 @@ If you want to contribute to a project and make it better, your help is very wel
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-[npm-image]: https://img.shields.io/npm/v/ts-node.svg?style=flat
-[npm-url]: https://npmjs.org/package/ts-node
+[npm-image]: https://img.shields.io/npm/v/node-foodics.svg?style=flat
+[npm-url]: https://www.npmjs.com/package/node-foodics
