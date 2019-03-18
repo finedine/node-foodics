@@ -1,7 +1,7 @@
 [![NPM version][npm-image]][npm-url]
 
 # node-foodics
-Simple NodeJS wrapper for Foodics API.
+Simple NodeJS wrapper for [Foodics API](https://dash.foodics.com/api-docs).
 
 ## Getting Started
 
