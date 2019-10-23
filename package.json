@@ -1,17 +1,18 @@
 {
   "name": "node-foodics",
-  "version": "0.0.3",
-  "description": "Simple NodeJS wrapper for Foodics API",
+  "version": "0.0.4",
+  "description": "Node.js wrapper for Foodics API",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --timeout 10000",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emrealparslan93/node-foodics.git"
+    "url": "git+https://github.com/finedine/node-foodics"
   },
   "keywords": [
     "foodics",
@@ -19,21 +20,22 @@
     "nodejs",
     "node"
   ],
-  "author": "Emre Alparslan",
+  "author": "Bambulabs, INC",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/emrealparslan93/node-foodics/issues"
+    "url": "https://github.com/finedine/node-foodics/issues"
   },
-  "homepage": "https://github.com/emrealparslan93/node-foodics#readme",
+  "homepage": "https://github.com/finedine/node-foodics#readme",
   "dependencies": {
-    "bluebird": "^3.5.3",
+    "bluebird": "^3.5.4",
     "lodash": "^4.17.11",
     "moment": "^2.24.0",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "superagent": "^5.0.5"
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.0.2",
-    "eslint": "^5.13.0"
+    "mocha": "^6.1.4",
+    "eslint": "^5.16.0"
   }
 }
