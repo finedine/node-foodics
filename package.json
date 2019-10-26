@@ -1,6 +1,6 @@
 {
   "name": "node-foodics",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Node.js wrapper for Foodics API",
   "main": "index.js",
   "directories": {
