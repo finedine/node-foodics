@@ -42,7 +42,7 @@ describe("node-foodics initialize", () => {
   it("should return PRODUCTS", async () => {
     try {
       const nodeFoodics = new NodeFoodics(ACCESS_TOKEN, ENVIRONMENT);
-      const result = await nodeFoodics.products.list({is_deleted: false});
+      const result = await nodeFoodics.products.list({ is_deleted: false });
       expect(result).to.have.property("data");
     } catch (error) {
       console.error(error);
@@ -51,7 +51,9 @@ describe("node-foodics initialize", () => {
   it("should return A SINGLE PRODUCT", async () => {
     try {
       const nodeFoodics = new NodeFoodics(ACCESS_TOKEN, ENVIRONMENT);
-      const result = await nodeFoodics.products.get("90edc7fa-6691-47a9-9dd1-d55cfc90ce0b");
+      const result = await nodeFoodics.products.get(
+        "90edc7fa-6691-47a9-9dd1-d55cfc90ce0b"
+      );
       expect(result).to.have.property("data");
     } catch (error) {
       console.error(error);
@@ -60,7 +62,19 @@ describe("node-foodics initialize", () => {
   it("should return A SINGLE PRODUCT", async () => {
     try {
       const nodeFoodics = new NodeFoodics(ACCESS_TOKEN, ENVIRONMENT);
-      const result = await nodeFoodics.products.get("90edc7fa-6691-47a9-9dd1-d55cfc90ce0b");
+      const result = await nodeFoodics.products.get(
+        "90edc7fa-6691-47a9-9dd1-d55cfc90ce0b"
+      );
+      expect(result).to.have.property("data");
+    } catch (error) {
+      console.error(error);
+    }
+  });
+  it("should return TABLES", async () => {
+    try {
+      const nodeFoodics = new NodeFoodics(ACCESS_TOKEN, ENVIRONMENT);
+      const result = await nodeFoodics.tables.list({is_deleted: false});
+      console.log(result);
       expect(result).to.have.property("data");
     } catch (error) {
       console.error(error);
